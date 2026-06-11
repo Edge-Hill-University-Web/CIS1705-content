@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Interfaces</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="assets/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+    <div id="status">Loading...</div>
+    <div class="row">
+      <div class="column small-12">
+        <h1 id="title">James Bond Films</h1>
+      </div>
+    </div>
+    <ul>
+      <li class="row" data-film-id="goldfinger_1964">
+        <h2>Goldfinger</h2>
+        <p>Goldfinger (1964) is the third film in the James Bond series and the third to star Sean Connery as the fictional MI6 agent James Bond.</p>
+        <div class="reviews small-9 column">
+          <dl>
+          </dl>
+          <form action="#" class="add_review">
+            <label>Nickname
+              <input type="text" name="nickname"/>
+            </label>
+            <label>Review
+              <textarea name="review"></textarea>
+            </label>
+            <input type="submit" value="Add Review">
+          </form>
+        </div>
+        <div class="small-3 column">
+          <a href="#" class="show">Show reviews</a><a href="#" class="hide hidden">Hide reviews</a>
+        </div>
+      </li>
+      <li class="row" data-film-id="quantum_2008">
+        <h2>Quantum of Solace</h2>
+        <p>Quantum of Solace is the 22nd James Bond film produced by Eon Productions, and is the direct sequel to the 2006 film Casino Royale.</p>
+        <div class="reviews small-9 column">
+          <dl>
+          </dl>
+          <form action="#" class="add_review">
+            <label>Nickname
+              <input type="text" name="nickname"/>
+            </label>
+            <label>Review
+              <textarea name="review"></textarea>
+            </label>
+            <input type="submit" value="Add Review">
+          </form>
+        </div>
+        <div class="small-3 column">
+          <a href="#" class="show">Show reviews</a><a href="#" class="hide hidden">Hide reviews</a>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
